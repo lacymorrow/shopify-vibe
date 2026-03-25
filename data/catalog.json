@@ -1,0 +1,156 @@
+{
+  "collections": [
+    { "title": "Meats", "handle": "meats" },
+    { "title": "Cheeses", "handle": "cheeses" },
+    { "title": "Handmade Goods", "handle": "handmade-goods" },
+    { "title": "Farm Fresh", "handle": "farm-fresh" }
+  ],
+  "products": [
+    {
+      "title": "Pasture-Raised Bacon",
+      "handle": "pasture-raised-bacon",
+      "productType": "Meat",
+      "tags": ["meat", "pork", "bacon"],
+      "descriptionHtml": "Smoked, pasture-raised bacon from heritage hogs.",
+      "collections": ["meats"],
+      "options": [
+        {
+          "name": "Package",
+          "values": ["12 oz", "16 oz"]
+        }
+      ],
+      "variants": [
+        {
+          "optionValues": [{ "name": "Package", "value": "12 oz" }],
+          "price": "9.00",
+          "inventoryQuantities": [{ "availableQuantity": 25 }]
+        },
+        {
+          "optionValues": [{ "name": "Package", "value": "16 oz" }],
+          "price": "12.00",
+          "inventoryQuantities": [{ "availableQuantity": 25 }]
+        }
+      ]
+    },
+    {
+      "title": "Sausage Links",
+      "handle": "sausage-links",
+      "productType": "Meat",
+      "tags": ["meat", "pork", "sausage"],
+      "descriptionHtml": "Farm-made breakfast sausage links, seasoned and ready to cook.",
+      "collections": ["meats"],
+      "options": [
+        { "name": "Style", "values": ["Mild", "Spicy"] }
+      ],
+      "variants": [
+        {
+          "optionValues": [{ "name": "Style", "value": "Mild" }],
+          "price": "8.00",
+          "inventoryQuantities": [{ "availableQuantity": 30 }]
+        },
+        {
+          "optionValues": [{ "name": "Style", "value": "Spicy" }],
+          "price": "8.50",
+          "inventoryQuantities": [{ "availableQuantity": 30 }]
+        }
+      ]
+    },
+    {
+      "title": "Pasture-Raised Chicken",
+      "handle": "pasture-raised-chicken",
+      "productType": "Meat",
+      "tags": ["meat", "chicken"],
+      "descriptionHtml": "Whole chickens raised on pasture with natural forage.",
+      "collections": ["meats"],
+      "options": [
+        { "name": "Weight", "values": ["3-3.5 lb", "3.5-4 lb", "4-4.5 lb"] }
+      ],
+      "variants": [
+        { "optionValues": [{ "name": "Weight", "value": "3-3.5 lb" }], "price": "16.00", "inventoryQuantities": [{ "availableQuantity": 10 }] },
+        { "optionValues": [{ "name": "Weight", "value": "3.5-4 lb" }], "price": "18.00", "inventoryQuantities": [{ "availableQuantity": 10 }] },
+        { "optionValues": [{ "name": "Weight", "value": "4-4.5 lb" }], "price": "20.00", "inventoryQuantities": [{ "availableQuantity": 10 }] }
+      ]
+    },
+    {
+      "title": "Raw Milk Cheddar",
+      "handle": "raw-milk-cheddar",
+      "productType": "Cheese",
+      "tags": ["cheese"],
+      "descriptionHtml": "Sharp raw milk cheddar, cave-aged for depth of flavor.",
+      "collections": ["cheeses", "farm-fresh"],
+      "options": [{ "name": "Block", "values": ["6 oz", "10 oz"] }],
+      "variants": [
+        { "optionValues": [{ "name": "Block", "value": "6 oz" }], "price": "7.00", "inventoryQuantities": [{ "availableQuantity": 20 }] },
+        { "optionValues": [{ "name": "Block", "value": "10 oz" }], "price": "10.00", "inventoryQuantities": [{ "availableQuantity": 20 }] }
+      ]
+    },
+    {
+      "title": "Goat Milk Feta",
+      "handle": "goat-milk-feta",
+      "productType": "Cheese",
+      "tags": ["cheese", "goat"],
+      "descriptionHtml": "Tangy goat milk feta in brine.",
+      "collections": ["cheeses"],
+      "options": [{ "name": "Package", "values": ["8 oz"] }],
+      "variants": [
+        { "optionValues": [{ "name": "Package", "value": "8 oz" }], "price": "9.00", "inventoryQuantities": [{ "availableQuantity": 15 }] }
+      ]
+    },
+    {
+      "title": "Handmade Lard Soap",
+      "handle": "handmade-lard-soap",
+      "productType": "Soap",
+      "tags": ["handmade", "soap"],
+      "descriptionHtml": "Cold-process soap made with rendered lard and natural scents.",
+      "collections": ["handmade-goods"],
+      "options": [{ "name": "Scent", "values": ["Lavender", "Cedarwood", "Unscented"] }],
+      "variants": [
+        { "optionValues": [{ "name": "Scent", "value": "Lavender" }], "price": "6.00", "inventoryQuantities": [{ "availableQuantity": 40 }] },
+        { "optionValues": [{ "name": "Scent", "value": "Cedarwood" }], "price": "6.00", "inventoryQuantities": [{ "availableQuantity": 40 }] },
+        { "optionValues": [{ "name": "Scent", "value": "Unscented" }], "price": "6.00", "inventoryQuantities": [{ "availableQuantity": 40 }] }
+      ]
+    },
+    {
+      "title": "Goat Milk Shampoo Bar",
+      "handle": "goat-milk-shampoo-bar",
+      "productType": "Shampoo",
+      "tags": ["handmade", "shampoo"],
+      "descriptionHtml": "Gentle goat milk shampoo bar, great for hair and body.",
+      "collections": ["handmade-goods"],
+      "options": [{ "name": "Scent", "values": ["Tea Tree", "Rosemary", "Unscented"] }],
+      "variants": [
+        { "optionValues": [{ "name": "Scent", "value": "Tea Tree" }], "price": "7.00", "inventoryQuantities": [{ "availableQuantity": 35 }] },
+        { "optionValues": [{ "name": "Scent", "value": "Rosemary" }], "price": "7.00", "inventoryQuantities": [{ "availableQuantity": 35 }] },
+        { "optionValues": [{ "name": "Scent", "value": "Unscented" }], "price": "7.00", "inventoryQuantities": [{ "availableQuantity": 35 }] }
+      ]
+    },
+    {
+      "title": "Plush Octopus",
+      "handle": "plush-octopus",
+      "productType": "Plushie",
+      "tags": ["handmade", "plushie", "octopus"],
+      "descriptionHtml": "Handmade plush octopus with soft yarn and button eyes.",
+      "collections": ["handmade-goods"],
+      "options": [{ "name": "Size", "values": ["Small", "Large"] }],
+      "variants": [
+        { "optionValues": [{ "name": "Size", "value": "Small" }], "price": "14.00", "inventoryQuantities": [{ "availableQuantity": 15 }] },
+        { "optionValues": [{ "name": "Size", "value": "Large" }], "price": "22.00", "inventoryQuantities": [{ "availableQuantity": 10 }] }
+      ]
+    },
+    {
+      "title": "Plush Rooster",
+      "handle": "plush-rooster",
+      "productType": "Plushie",
+      "tags": ["handmade", "plushie", "rooster"],
+      "descriptionHtml": "Handmade plush rooster inspired by our wild chickens.",
+      "collections": ["handmade-goods"],
+      "options": [{ "name": "Size", "values": ["Small", "Large"] }],
+      "variants": [
+        { "optionValues": [{ "name": "Size", "value": "Small" }], "price": "14.00", "inventoryQuantities": [{ "availableQuantity": 15 }] },
+        { "optionValues": [{ "name": "Size", "value": "Large" }], "price": "22.00", "inventoryQuantities": [{ "availableQuantity": 10 }] }
+      ]
+    }
+  ]
+}
+
+
